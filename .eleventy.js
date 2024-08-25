@@ -12,12 +12,6 @@ export default function (eleventyConfig) {
 		components: "src/_includes/components/*.webc"
 	});
 
-  // Passthrough file copy
-  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-  [
-    "src/assets/",
-  ].forEach((item) => eleventyConfig.addPassthroughCopy(item));
-
   return {
     dir: {
       input: "src",
