@@ -1,0 +1,11 @@
+Hi from the component 2
+
+<style>
+  body {
+    color: green;
+  }
+</style>
+
+<script>
+  console.log("here");
+</script>

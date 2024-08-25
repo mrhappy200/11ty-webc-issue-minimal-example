@@ -1,0 +1,22 @@
+{
+  "name": "xxxxxxxxxxx",
+  "version": "0.0.1",
+  "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "license": "AGPLv3",
+  "author": {
+    "name": "Ronan Berntsen",
+    "url": "xxxxxxxxxxx"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.x.x"
+  },
+  "scripts": {
+    "start": "eleventy --serve --watch",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
+  }
+}
